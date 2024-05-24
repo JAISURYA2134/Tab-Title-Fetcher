@@ -1,0 +1,50 @@
+/* General Styles */
+h1{
+  font-family: Bradley Hand, cursive;
+}
+body {
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+/* Card Styles */
+.card {
+  background: linear-gradient(135deg, #A16BFE, #BC3D2F); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Button Styles */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#fetchTitleBtn:hover {
+  background-color:#c21717;
+  transition: 0.7s;
+}
+
+/* Output Space Styles */
+#output {
+  font-family: American Typewriter, serif;
+  margin-top: 20px;
+  font-size: 18px;
+  color:white;
+}
+
